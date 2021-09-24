@@ -17,6 +17,7 @@ class GeoLocationAndCurrencyConversionController extends Controller
                                 ->with('userContinent',$fullResponse['continent'])
                                 ->with('userCountry',$fullResponse['country'])
                                 ->with('userZipCode',$fullResponse['zipCode'])
+                                ->with('userFlag', $fullResponse['flag'])
                                 ->with('userCurrencyCode',$fullResponse['currencyCode']);
     }
 

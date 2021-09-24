@@ -11,7 +11,7 @@
         <p>
             <strong>Your IP: </strong>{{$userIp}}<br/>
             <strong>Your Continent: </strong>{{$userContinent}}<br/>
-            <strong>Your Country: </strong>{{$userCountry}}<br/>
+            <strong>Your Country: </strong>{{$userCountry}} &nbsp; <img src="{{$userFlag}}" height="25"/><br/>
             <strong>Your Zip Code: </strong>{{$userZipCode}}<br/>
             <strong>Your Currency Code: </strong>{{$userCurrencyCode}}<br/>
         </p>
